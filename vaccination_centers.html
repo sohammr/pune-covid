@@ -1,0 +1,3627 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_8887598da9ba453c8993e00c5fa6f9f2 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_8887598da9ba453c8993e00c5fa6f9f2" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_8887598da9ba453c8993e00c5fa6f9f2 = L.map(
+        'map_8887598da9ba453c8993e00c5fa6f9f2', {
+        center: [18.5204, 73.8567],
+        zoom: 12,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_726cac7f1129437ea349266708e7e09d = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 16,
+        "maxZoom": 16,
+        "minZoom": 11,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_8887598da9ba453c8993e00c5fa6f9f2);
+    
+            var feature_group_b9bed08ed70e406d960d1b4dcad25139 = L.featureGroup(
+                ).addTo(map_8887598da9ba453c8993e00c5fa6f9f2);
+        
+    
+        var marker_b0e8cda61248458fa4b4675979a6c766 = L.marker(
+            [18.5264639488749, 73.8704931686662],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_18dc390793ec45fc9c278c8597cfc4c5 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b0e8cda61248458fa4b4675979a6c766.setIcon(icon_18dc390793ec45fc9c278c8597cfc4c5);
+            
+    
+        marker_b0e8cda61248458fa4b4675979a6c766.bindTooltip(
+            `<div>`
+            + `B J Medical College` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_cd8b95d63ca3428f88e351e457a08f07 = L.marker(
+            [18.5263100087077, 73.8715975965676],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_186e56411aec4ffbadfa9f10725d49b2 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cd8b95d63ca3428f88e351e457a08f07.setIcon(icon_186e56411aec4ffbadfa9f10725d49b2);
+            
+    
+        marker_cd8b95d63ca3428f88e351e457a08f07.bindTooltip(
+            `<div>`
+            + `Sassoon General Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_9d9bac4bdc0d4a79a6c8995724fb0077 = L.marker(
+            [18.578521793569102, 73.8748601686083],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_a33397f19c9c4b9b98a08b87d7dd3c55 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9d9bac4bdc0d4a79a6c8995724fb0077.setIcon(icon_a33397f19c9c4b9b98a08b87d7dd3c55);
+            
+    
+        marker_9d9bac4bdc0d4a79a6c8995724fb0077.bindTooltip(
+            `<div>`
+            + `Kalas Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c171ee422fc2493586daeadb2c4adbab = L.marker(
+            [18.4961769331242, 73.87022882624349],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_acdbfdcc6bf345c3986845f28f49cb56 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c171ee422fc2493586daeadb2c4adbab.setIcon(icon_acdbfdcc6bf345c3986845f28f49cb56);
+            
+    
+        marker_c171ee422fc2493586daeadb2c4adbab.bindTooltip(
+            `<div>`
+            + `Babasaheb Ambedkar Dias Plot Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5e02c5d9b6d54468af3ca164a931f5fb = L.marker(
+            [18.4765154804695, 73.85603599607191],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_8c7b4b0347814f6e9ff05634d3a7bb0b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5e02c5d9b6d54468af3ca164a931f5fb.setIcon(icon_8c7b4b0347814f6e9ff05634d3a7bb0b);
+            
+    
+        marker_5e02c5d9b6d54468af3ca164a931f5fb.bindTooltip(
+            `<div>`
+            + `Shiv Shankar Pote Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ed476958f24c447f9a9124c83677fff3 = L.marker(
+            [18.4963656025118, 73.8170572531522],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_34307fbbe02342b08552d0ce9aded73a = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ed476958f24c447f9a9124c83677fff3.setIcon(icon_34307fbbe02342b08552d0ce9aded73a);
+            
+    
+        marker_ed476958f24c447f9a9124c83677fff3.bindTooltip(
+            `<div>`
+            + `Bindu Madhav Thakre Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_3621f0cb951b4ac2bd4193c10d7f7980 = L.marker(
+            [18.4837608924097, 73.79265805951891],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_ec4d27b25f3f49dda886fe7d1b09c665 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3621f0cb951b4ac2bd4193c10d7f7980.setIcon(icon_ec4d27b25f3f49dda886fe7d1b09c665);
+            
+    
+        marker_3621f0cb951b4ac2bd4193c10d7f7980.bindTooltip(
+            `<div>`
+            + `Bartakke Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_2b85a75467d248278d215e929e6d1dd5 = L.marker(
+            [18.531593465584102, 73.8692667452034],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_e4f5c8d2ecb0479cb9d3f7ee3f4055d1 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b85a75467d248278d215e929e6d1dd5.setIcon(icon_e4f5c8d2ecb0479cb9d3f7ee3f4055d1);
+            
+    
+        marker_2b85a75467d248278d215e929e6d1dd5.bindTooltip(
+            `<div>`
+            + `Naidu Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ede9309291e54134a5dc8d11b1bbebd8 = L.marker(
+            [18.543642788499998, 73.92360501472992],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_44d384ed82554215990667ea3fbd2478 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ede9309291e54134a5dc8d11b1bbebd8.setIcon(icon_44d384ed82554215990667ea3fbd2478);
+            
+    
+        marker_ede9309291e54134a5dc8d11b1bbebd8.bindTooltip(
+            `<div>`
+            + `Minatai Thakre Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ee07c35b9b7141f6abf3de28cc003189 = L.marker(
+            [18.5331804188956, 73.8492379660894],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_21cf5d346d324d0da89346cb2d272c82 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ee07c35b9b7141f6abf3de28cc003189.setIcon(icon_21cf5d346d324d0da89346cb2d272c82);
+            
+    
+        marker_ee07c35b9b7141f6abf3de28cc003189.bindTooltip(
+            `<div>`
+            + `Dalvi Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f397642565be46febf0446f8daab26b4 = L.marker(
+            [18.5053295101731, 73.86292943952829],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_616c3f9c16644e358002f417938156dd = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f397642565be46febf0446f8daab26b4.setIcon(icon_616c3f9c16644e358002f417938156dd);
+            
+    
+        marker_f397642565be46febf0446f8daab26b4.bindTooltip(
+            `<div>`
+            + `Savitribai Phule (Guruwar Peth) Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_61a1ab0283484956a5325d9b2dfce4ef = L.marker(
+            [18.5160252868202, 73.86767443721291],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_f73061f96b834353acf0d91459fa3a26 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_61a1ab0283484956a5325d9b2dfce4ef.setIcon(icon_f73061f96b834353acf0d91459fa3a26);
+            
+    
+        marker_61a1ab0283484956a5325d9b2dfce4ef.bindTooltip(
+            `<div>`
+            + `Mamasaheb Badade Dispensary` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_856f69d4b2524eaa9b214224b0735c9a = L.marker(
+            [18.5153013634786, 73.8465008568487],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_f570f0ba34824a3abb441ff6ec7d68bf = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_856f69d4b2524eaa9b214224b0735c9a.setIcon(icon_f570f0ba34824a3abb441ff6ec7d68bf);
+            
+    
+        marker_856f69d4b2524eaa9b214224b0735c9a.bindTooltip(
+            `<div>`
+            + `Kalavati Mavale Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_cbe1715524bc41d792038ee039c91e06 = L.marker(
+            [18.626686458342103, 73.7977633415086],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_3af370545821442aa49dcc2ac126e143 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cbe1715524bc41d792038ee039c91e06.setIcon(icon_3af370545821442aa49dcc2ac126e143);
+            
+    
+        marker_cbe1715524bc41d792038ee039c91e06.bindTooltip(
+            `<div>`
+            + `Ramabai Ambedkar Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_9dae43de26114b96b81f4ae9e7bb946f = L.marker(
+            [18.4677656323448, 73.8686307777341],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_aa910f0ae71b472c8315ae7d4fe257bb = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9dae43de26114b96b81f4ae9e7bb946f.setIcon(icon_aa910f0ae71b472c8315ae7d4fe257bb);
+            
+    
+        marker_9dae43de26114b96b81f4ae9e7bb946f.bindTooltip(
+            `<div>`
+            + `Premchand Oswal Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_42ddc31050404eb895b4e379f1cd2b08 = L.marker(
+            [18.501139005272897, 73.84652264275721],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_1a99d1cdccd24bad8caf6849dc80a09d = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_42ddc31050404eb895b4e379f1cd2b08.setIcon(icon_1a99d1cdccd24bad8caf6849dc80a09d);
+            
+    
+        marker_42ddc31050404eb895b4e379f1cd2b08.bindTooltip(
+            `<div>`
+            + `Janta Vasahat Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_91106cfb77044bfb81633a48820c44ca = L.marker(
+            [18.4655208431422, 73.8495919761644],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_88f7d276c8994f8f9f788e7f36a814e4 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_91106cfb77044bfb81633a48820c44ca.setIcon(icon_88f7d276c8994f8f9f788e7f36a814e4);
+            
+    
+        marker_91106cfb77044bfb81633a48820c44ca.bindTooltip(
+            `<div>`
+            + `Vilasrao Tambe Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_439efc066d744c7ba745c8cf081a9a59 = L.marker(
+            [18.4484646307159, 73.85694958593609],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_ce46e271cc914ca98549bc9d1806f25d = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_439efc066d744c7ba745c8cf081a9a59.setIcon(icon_ce46e271cc914ca98549bc9d1806f25d);
+            
+    
+        marker_439efc066d744c7ba745c8cf081a9a59.bindTooltip(
+            `<div>`
+            + `Hajrat Yunus Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_298a1794a7d845ecaddf1a6cf09a6c64 = L.marker(
+            [18.443006897083198, 73.84758714651659],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_a908b6cba61d4f568ba26cfd013a6fe0 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_298a1794a7d845ecaddf1a6cf09a6c64.setIcon(icon_a908b6cba61d4f568ba26cfd013a6fe0);
+            
+    
+        marker_298a1794a7d845ecaddf1a6cf09a6c64.bindTooltip(
+            `<div>`
+            + `Rakhmabai Thorve Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d0d524af6871458bbe241e7709067358 = L.marker(
+            [18.5071630192115, 73.83345490287391],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_ae2910308c5549889cf1b22f77742501 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d0d524af6871458bbe241e7709067358.setIcon(icon_ae2910308c5549889cf1b22f77742501);
+            
+    
+        marker_d0d524af6871458bbe241e7709067358.bindTooltip(
+            `<div>`
+            + `Tharkude Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_6063928271d747b4b915b1769fcc67ae = L.marker(
+            [18.4973835713204, 73.8997935764434],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_e28dad1bb6bf485b8ab41b4350ebe7ab = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6063928271d747b4b915b1769fcc67ae.setIcon(icon_e28dad1bb6bf485b8ab41b4350ebe7ab);
+            
+    
+        marker_6063928271d747b4b915b1769fcc67ae.bindTooltip(
+            `<div>`
+            + `Namdeorao Shivarkar Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_cc611c24682d4a4796bc8bfd55795610 = L.marker(
+            [18.4824361174807, 73.8997959042075],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_d87a161b1d904fd8bf3a0e8e27a47b91 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cc611c24682d4a4796bc8bfd55795610.setIcon(icon_d87a161b1d904fd8bf3a0e8e27a47b91);
+            
+    
+        marker_cc611c24682d4a4796bc8bfd55795610.bindTooltip(
+            `<div>`
+            + `Chhatrapati Shahu Maharaj Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_31f2f03a6d56400e8686fb23f77f24bc = L.marker(
+            [18.4704258559373, 73.8863373189772],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_a1c757c6864a4173a574462fc2f77dc4 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_31f2f03a6d56400e8686fb23f77f24bc.setIcon(icon_a1c757c6864a4173a574462fc2f77dc4);
+            
+    
+        marker_31f2f03a6d56400e8686fb23f77f24bc.bindTooltip(
+            `<div>`
+            + `KGN Mithanagar UHC` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d942f74e1f554cf49ccc374f4840e676 = L.marker(
+            [18.534001638906698, 73.9275996200642],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_c2513bd70cb34122914790aaef1dc56f = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d942f74e1f554cf49ccc374f4840e676.setIcon(icon_c2513bd70cb34122914790aaef1dc56f);
+            
+    
+        marker_d942f74e1f554cf49ccc374f4840e676.bindTooltip(
+            `<div>`
+            + `Sakharam Kodre Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c1547b39b4ee462fbd3c9d862e4a8e8d = L.marker(
+            [18.503061246317998, 73.9272654452029],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_adab47fac9ef4caa88c67b55a761a9e3 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c1547b39b4ee462fbd3c9d862e4a8e8d.setIcon(icon_adab47fac9ef4caa88c67b55a761a9e3);
+            
+    
+        marker_c1547b39b4ee462fbd3c9d862e4a8e8d.bindTooltip(
+            `<div>`
+            + `Annasaheb Magar Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_b275a8e6a3db46cea80072155120b01d = L.marker(
+            [18.477626602302898, 73.8950408354051],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_b6bcb757e2df4272b742091099627189 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b275a8e6a3db46cea80072155120b01d.setIcon(icon_b6bcb757e2df4272b742091099627189);
+            
+    
+        marker_b275a8e6a3db46cea80072155120b01d.bindTooltip(
+            `<div>`
+            + `Savitribai Phule (Kondhwa) Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_77132a35297c417abe96e115f0dc73c3 = L.marker(
+            [18.6813039227452, 73.71607004335749],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_f9d4e3355ef14994ab343ad8e5658605 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_77132a35297c417abe96e115f0dc73c3.setIcon(icon_f9d4e3355ef14994ab343ad8e5658605);
+            
+    
+        marker_77132a35297c417abe96e115f0dc73c3.bindTooltip(
+            `<div>`
+            + `Sainagar Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7339db807b1243aeba0f009de285c642 = L.marker(
+            [18.461855927768198, 73.86220739656629],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_e13176b7a0e943519410ce97a085e29f = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7339db807b1243aeba0f009de285c642.setIcon(icon_e13176b7a0e943519410ce97a085e29f);
+            
+    
+        marker_7339db807b1243aeba0f009de285c642.bindTooltip(
+            `<div>`
+            + `Dhankawade Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7aae7b709b03428ba00178639d7a64e3 = L.marker(
+            [18.4535739395569, 73.86983464074359],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_e6e6726e6e0348a78c14dc04afe2a30c = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7aae7b709b03428ba00178639d7a64e3.setIcon(icon_e6e6726e6e0348a78c14dc04afe2a30c);
+            
+    
+        marker_7aae7b709b03428ba00178639d7a64e3.bindTooltip(
+            `<div>`
+            + `Vasant More Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d6ad09f11ba846d594ce2a946260e4f3 = L.marker(
+            [18.459794444423803, 73.86931586059049],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_ad2d77dc98234cf986e4a54cf6fc8fae = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d6ad09f11ba846d594ce2a946260e4f3.setIcon(icon_ad2d77dc98234cf986e4a54cf6fc8fae);
+            
+    
+        marker_d6ad09f11ba846d594ce2a946260e4f3.bindTooltip(
+            `<div>`
+            + `Yugapurush Raja Shiv Chhatrapati Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c9680f6e05da44fda57753d448b9a6f5 = L.marker(
+            [18.5631168418857, 73.8329074158114],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_5683fc33f3014c4eaa83e853bf020e1f = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c9680f6e05da44fda57753d448b9a6f5.setIcon(icon_5683fc33f3014c4eaa83e853bf020e1f);
+            
+    
+        marker_c9680f6e05da44fda57753d448b9a6f5.bindTooltip(
+            `<div>`
+            + `Shevale Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_64f6cc75d0474d24948daa5d4f78191f = L.marker(
+            [18.4927080089515, 73.8674301176584],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_1251bae1ea0a4f6ea761b31ef7f018e4 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_64f6cc75d0474d24948daa5d4f78191f.setIcon(icon_1251bae1ea0a4f6ea761b31ef7f018e4);
+            
+    
+        marker_64f6cc75d0474d24948daa5d4f78191f.bindTooltip(
+            `<div>`
+            + `Indumati Manilal Khanna Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_4549e91961d74cb4ad6a42f880147395 = L.marker(
+            [18.4693943120768, 73.863869834848],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_68eca5ba6691484591acc6f26a4f4460 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4549e91961d74cb4ad6a42f880147395.setIcon(icon_68eca5ba6691484591acc6f26a4f4460);
+            
+    
+        marker_4549e91961d74cb4ad6a42f880147395.bindTooltip(
+            `<div>`
+            + `Shri Sadguru Shankar Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_6bc04d4142654e2c9019b8529b58a8e2 = L.marker(
+            [18.4756198599082, 73.79818722930379],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_225aad4fba844d009c2fc2b62ea8986a = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6bc04d4142654e2c9019b8529b58a8e2.setIcon(icon_225aad4fba844d009c2fc2b62ea8986a);
+            
+    
+        marker_6bc04d4142654e2c9019b8529b58a8e2.bindTooltip(
+            `<div>`
+            + `Pruthak Barate Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_6acc077fdf6447a696cb0a866940b785 = L.marker(
+            [18.5626344062919, 73.8974718599886],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_8633d3bec5ac4ed198a0bbc1a5522f5d = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6acc077fdf6447a696cb0a866940b785.setIcon(icon_8633d3bec5ac4ed198a0bbc1a5522f5d);
+            
+    
+        marker_6acc077fdf6447a696cb0a866940b785.bindTooltip(
+            `<div>`
+            + `Chhatrapati Shivray Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_fa8be30da0e34cd9b9f75ce413b8804a = L.marker(
+            [18.5275829429015, 73.8716116697856],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_00159f8c6e92453c90e9ee1bb23bec5b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa8be30da0e34cd9b9f75ce413b8804a.setIcon(icon_00159f8c6e92453c90e9ee1bb23bec5b);
+            
+    
+        marker_fa8be30da0e34cd9b9f75ce413b8804a.bindTooltip(
+            `<div>`
+            + `Railway Hospital Pune Station` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_034bf1bc3ab440009c9e6111ea56f524 = L.marker(
+            [18.5377811955144, 73.7952078794818],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_de0891a37a5d4987bb38b9cf271dcc3f = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_034bf1bc3ab440009c9e6111ea56f524.setIcon(icon_de0891a37a5d4987bb38b9cf271dcc3f);
+            
+    
+        marker_034bf1bc3ab440009c9e6111ea56f524.bindTooltip(
+            `<div>`
+            + `Nimhan Hospital Pashan` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_600a95a58d5b478294d3758d53e6728d = L.marker(
+            [18.5117705456856, 73.8204682777347],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_f822b30a92714afc981a2e16aa90da27 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_600a95a58d5b478294d3758d53e6728d.setIcon(icon_f822b30a92714afc981a2e16aa90da27);
+            
+    
+        marker_600a95a58d5b478294d3758d53e6728d.bindTooltip(
+            `<div>`
+            + `Sundarabai Ganpat Raut Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_efb4d7f444f84348bc312ba2a7b26ce2 = L.marker(
+            [18.566027644635, 73.7714656317102],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_9ab83fb5739e4147acc88253e884b797 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_efb4d7f444f84348bc312ba2a7b26ce2.setIcon(icon_9ab83fb5739e4147acc88253e884b797);
+            
+    
+        marker_efb4d7f444f84348bc312ba2a7b26ce2.bindTooltip(
+            `<div>`
+            + `Smart Clinic Baner` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_487df4c1916b46aebc2f6c49ef7f4a10 = L.marker(
+            [18.5380540481341, 73.8990898256086],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_e11a733119eb4e688216c4c49de851b8 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_487df4c1916b46aebc2f6c49ef7f4a10.setIcon(icon_e11a733119eb4e688216c4c49de851b8);
+            
+    
+        marker_487df4c1916b46aebc2f6c49ef7f4a10.bindTooltip(
+            `<div>`
+            + `Bapusaheb Kawade Patil Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_8c69a71426354767ad4b60dd678d5e6e = L.marker(
+            [18.497195243657103, 73.8548049561695],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_19ef9b5163244e82bd1ec509df67c3a1 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8c69a71426354767ad4b60dd678d5e6e.setIcon(icon_19ef9b5163244e82bd1ec509df67c3a1);
+            
+    
+        marker_8c69a71426354767ad4b60dd678d5e6e.bindTooltip(
+            `<div>`
+            + `Rajmata Jijau Prasutighruh` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_28116dd3337a45acaaf90e381ea8947d = L.marker(
+            [18.500938028423, 73.8592416415067],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_4eeec71841d744b69f49d6aa568d39e2 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_28116dd3337a45acaaf90e381ea8947d.setIcon(icon_4eeec71841d744b69f49d6aa568d39e2);
+            
+    
+        marker_28116dd3337a45acaaf90e381ea8947d.bindTooltip(
+            `<div>`
+            + `Swargate Police Station` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_a314ec13cffe474695ae358418b76efc = L.marker(
+            [18.527282019601103, 73.845939221748],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_a592cd1dbd144b99aca73518a0b90630 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a314ec13cffe474695ae358418b76efc.setIcon(icon_a592cd1dbd144b99aca73518a0b90630);
+            
+    
+        marker_a314ec13cffe474695ae358418b76efc.bindTooltip(
+            `<div>`
+            + `Shivaji Nagar Police Station Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d1ea907ea4e447a2a683d4121db2d873 = L.marker(
+            [18.5635252971252, 73.89358210763079],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_7057998c4bc14c48a1aaeccbdeb0752a = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d1ea907ea4e447a2a683d4121db2d873.setIcon(icon_7057998c4bc14c48a1aaeccbdeb0752a);
+            
+    
+        marker_d1ea907ea4e447a2a683d4121db2d873.bindTooltip(
+            `<div>`
+            + `Yerwada Prison Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c458df10108949c4afda0e1db4be2214 = L.marker(
+            [18.4689643189792, 73.7945821879221],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_de9c2370276a4f299d990e68c09f7b6d = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c458df10108949c4afda0e1db4be2214.setIcon(icon_de9c2370276a4f299d990e68c09f7b6d);
+            
+    
+        marker_c458df10108949c4afda0e1db4be2214.bindTooltip(
+            `<div>`
+            + `Shivane Dispensary ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ae45cc2ab8684bdcbdeb647f755300c3 = L.marker(
+            [18.5179592737456, 73.8669798762886],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_1c270cd599974a378164fed6ccfc321f = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ae45cc2ab8684bdcbdeb647f755300c3.setIcon(icon_1c270cd599974a378164fed6ccfc321f);
+            
+    
+        marker_ae45cc2ab8684bdcbdeb647f755300c3.bindTooltip(
+            `<div>`
+            + `Tadiwala Road Dispensary ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_84b0246c560f4f2faea6a332fbc0dfc4 = L.marker(
+            [18.520427386358303, 73.91151193665759],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_a2743f264d7840a681310efc3ae7f693 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_84b0246c560f4f2faea6a332fbc0dfc4.setIcon(icon_a2743f264d7840a681310efc3ae7f693);
+            
+    
+        marker_84b0246c560f4f2faea6a332fbc0dfc4.bindTooltip(
+            `<div>`
+            + `Rajshri Shahu Maharaj Bhimnagar ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ddf8402a60f44511b46e57afa1c550ba = L.marker(
+            [18.5520851550254, 73.8965108130341],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_05661fef0adb4134b8f5edf066ea3337 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ddf8402a60f44511b46e57afa1c550ba.setIcon(icon_05661fef0adb4134b8f5edf066ea3337);
+            
+    
+        marker_ddf8402a60f44511b46e57afa1c550ba.bindTooltip(
+            `<div>`
+            + `Galande Hospital Nagar Road ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_af33fb8920ec4bc4bbfd256bf02d3480 = L.marker(
+            [18.4922934602456, 73.853911729861],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_e4ebf397ecb4473382f6de85396f2c0b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_af33fb8920ec4bc4bbfd256bf02d3480.setIcon(icon_e4ebf397ecb4473382f6de85396f2c0b);
+            
+    
+        marker_af33fb8920ec4bc4bbfd256bf02d3480.bindTooltip(
+            `<div>`
+            + `Rajiv Gandhi E-Learning School ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_6c0301313e8c421a9a14b4dd36a39890 = L.marker(
+            [18.4439319312961, 73.8094441703413],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_7b1e81faaa8248e0bf4794687026b55e = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6c0301313e8c421a9a14b4dd36a39890.setIcon(icon_7b1e81faaa8248e0bf4794687026b55e);
+            
+    
+        marker_6c0301313e8c421a9a14b4dd36a39890.bindTooltip(
+            `<div>`
+            + `Dhayri Grampanchayat Prathmik Kendra ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_095c9a37ed3e450a9b97abf3ae747b41 = L.marker(
+            [18.4589716244452, 73.8540347856833],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_8bdc68f392174748a3af4e28e65a50d0 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_095c9a37ed3e450a9b97abf3ae747b41.setIcon(icon_8bdc68f392174748a3af4e28e65a50d0);
+            
+    
+        marker_095c9a37ed3e450a9b97abf3ae747b41.bindTooltip(
+            `<div>`
+            + `Abhijit Kadam Krida Sankul ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c5a1715299644fb5a77f4e4ace274944 = L.marker(
+            [18.4621721839987, 73.77467389917709],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_701e85be8b804d94840dcded219a2f84 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c5a1715299644fb5a77f4e4ace274944.setIcon(icon_701e85be8b804d94840dcded219a2f84);
+            
+    
+        marker_c5a1715299644fb5a77f4e4ace274944.bindTooltip(
+            `<div>`
+            + `Uttamnagar ZP School` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5d58d68169cd49feab0a5bb475fe199e = L.marker(
+            [18.4847402816238, 73.8163808025073],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_ce46f52572c14e36a9d420332bc34d24 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5d58d68169cd49feab0a5bb475fe199e.setIcon(icon_ce46f52572c14e36a9d420332bc34d24);
+            
+    
+        marker_5d58d68169cd49feab0a5bb475fe199e.bindTooltip(
+            `<div>`
+            + `PMC School Karvenagar ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_a228dd65d8cb44798e1cca6363d75f8c = L.marker(
+            [18.491967873110898, 73.93261645973821],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_6c0a096fb8cf452ebade58912863db8c = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a228dd65d8cb44798e1cca6363d75f8c.setIcon(icon_6c0a096fb8cf452ebade58912863db8c);
+            
+    
+        marker_a228dd65d8cb44798e1cca6363d75f8c.bindTooltip(
+            `<div>`
+            + `Annasaheb Magar Savli Foundation ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_9b7f9a3f681a48ac9509c48537c3a93a = L.marker(
+            [18.5008676102714, 73.8076349858595],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_99be00bb039d42b5bb86d4bd04b616c4 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9b7f9a3f681a48ac9509c48537c3a93a.setIcon(icon_99be00bb039d42b5bb86d4bd04b616c4);
+            
+    
+        marker_9b7f9a3f681a48ac9509c48537c3a93a.bindTooltip(
+            `<div>`
+            + `Cummins India LTD` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_47063701348a436288d3234d199f7ed7 = L.marker(
+            [18.517677325395997, 73.8596754596562],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_b91cfc40581a42f0941c130a338f1b60 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_47063701348a436288d3234d199f7ed7.setIcon(icon_b91cfc40581a42f0941c130a338f1b60);
+            
+    
+        marker_47063701348a436288d3234d199f7ed7.bindTooltip(
+            `<div>`
+            + `Hutatma Babu Genu Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_52edb3df1b1b49cdad9b1d8a329ef259 = L.marker(
+            [18.527896760312604, 73.86511071212949],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_058e7af89b2a4554a120ef78b9e89f8a = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_52edb3df1b1b49cdad9b1d8a329ef259.setIcon(icon_058e7af89b2a4554a120ef78b9e89f8a);
+            
+    
+        marker_52edb3df1b1b49cdad9b1d8a329ef259.bindTooltip(
+            `<div>`
+            + `Dadasaheb Gaikwad Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_0bf4ebd3d5704ce79aae3a5c50f8950d = L.marker(
+            [18.502290875860396, 73.8322391433548],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_9968c50f1488473a97e4aad2f25d2fe5 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0bf4ebd3d5704ce79aae3a5c50f8950d.setIcon(icon_9968c50f1488473a97e4aad2f25d2fe5);
+            
+    
+        marker_0bf4ebd3d5704ce79aae3a5c50f8950d.bindTooltip(
+            `<div>`
+            + `Deenanath Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_8cfc4eef943e4548b4889b4822c420ba = L.marker(
+            [18.5377482901954, 73.88760206774691],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_476e26259863433da19e3a0d0783d26e = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8cfc4eef943e4548b4889b4822c420ba.setIcon(icon_476e26259863433da19e3a0d0783d26e);
+            
+    
+        marker_8cfc4eef943e4548b4889b4822c420ba.bindTooltip(
+            `<div>`
+            + `Inlaks & Budhrani Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5f893f14eb1b409ba62c979152f6cb41 = L.marker(
+            [18.5096105950484, 73.8128890200638],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_9f7536e98a9044b59816b84630cdc7c4 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5f893f14eb1b409ba62c979152f6cb41.setIcon(icon_9f7536e98a9044b59816b84630cdc7c4);
+            
+    
+        marker_5f893f14eb1b409ba62c979152f6cb41.bindTooltip(
+            `<div>`
+            + `Krishna Hospital Kothrud` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c4df93cde69f4d578c76ab47cb08c420 = L.marker(
+            [18.4905374870386, 74.0009325004686],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_b5a2c1e729ab48b08e80566a61102178 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c4df93cde69f4d578c76ab47cb08c420.setIcon(icon_b5a2c1e729ab48b08e80566a61102178);
+            
+    
+        marker_c4df93cde69f4d578c76ab47cb08c420.bindTooltip(
+            `<div>`
+            + `Shivam Multispeciality Hospital Phursungi` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_8fa17cec24224c029bcc857bc8c824b8 = L.marker(
+            [18.466131339518498, 73.86085374464541],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_5ebe71bcbf474ca9b6d2ecca58001255 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8fa17cec24224c029bcc857bc8c824b8.setIcon(icon_5ebe71bcbf474ca9b6d2ecca58001255);
+            
+    
+        marker_8fa17cec24224c029bcc857bc8c824b8.bindTooltip(
+            `<div>`
+            + `Pawar Multispeciality Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5e6ca40ba62744a6b7c5a0e0296c9628 = L.marker(
+            [18.4945539579618, 73.8621086415066],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_5b8b75e925b040daba704987f1da5e19 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5e6ca40ba62744a6b7c5a0e0296c9628.setIcon(icon_5b8b75e925b040daba704987f1da5e19);
+            
+    
+        marker_5e6ca40ba62744a6b7c5a0e0296c9628.bindTooltip(
+            `<div>`
+            + `Ranka Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c42d75c5c55d44c8ad8ea357882bbea8 = L.marker(
+            [18.521660519365998, 73.85653326081],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_79a779b38de9460ab33ea9351a5b8376 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c42d75c5c55d44c8ad8ea357882bbea8.setIcon(icon_79a779b38de9460ab33ea9351a5b8376);
+            
+    
+        marker_c42d75c5c55d44c8ad8ea357882bbea8.bindTooltip(
+            `<div>`
+            + `Surya Sahyadri Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ad3b6cc3ac3d43ebb472f99d38216477 = L.marker(
+            [18.554583130725398, 73.942357706785],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_82662a786b2545df935f7d0bf76ed618 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ad3b6cc3ac3d43ebb472f99d38216477.setIcon(icon_82662a786b2545df935f7d0bf76ed618);
+            
+    
+        marker_ad3b6cc3ac3d43ebb472f99d38216477.bindTooltip(
+            `<div>`
+            + `Shree Hospital Criticare Kharadi` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_48e1d53b49954ab9b2d308c2963ca581 = L.marker(
+            [18.5733450279332, 73.8781005967735],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_587b5c49a3e244209972e85e2605541f = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_48e1d53b49954ab9b2d308c2963ca581.setIcon(icon_587b5c49a3e244209972e85e2605541f);
+            
+    
+        marker_48e1d53b49954ab9b2d308c2963ca581.bindTooltip(
+            `<div>`
+            + `Vinod Memorial Multispeciality Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d92eaf4f202c4f01a463c89cc3baf8f1 = L.marker(
+            [18.5306426666597, 73.8770501642413],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_c8b25efc9b214bf18d91b25fd43409a7 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d92eaf4f202c4f01a463c89cc3baf8f1.setIcon(icon_c8b25efc9b214bf18d91b25fd43409a7);
+            
+    
+        marker_d92eaf4f202c4f01a463c89cc3baf8f1.bindTooltip(
+            `<div>`
+            + `Jehangir Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_393e54847f844c8c9f35a641f591e829 = L.marker(
+            [18.5297708078467, 73.8771901587435],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_b13b301c1d98487ea52994fc7c7c269b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_393e54847f844c8c9f35a641f591e829.setIcon(icon_b13b301c1d98487ea52994fc7c7c269b);
+            
+    
+        marker_393e54847f844c8c9f35a641f591e829.bindTooltip(
+            `<div>`
+            + `N M Wadia Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_32c3a2faced84e8d8b84bfb70a4694eb = L.marker(
+            [18.562044365302103, 73.8053799832798],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_acfb2f2a88164b0aaaf5c0f397ab981d = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_32c3a2faced84e8d8b84bfb70a4694eb.setIcon(icon_acfb2f2a88164b0aaaf5c0f397ab981d);
+            
+    
+        marker_32c3a2faced84e8d8b84bfb70a4694eb.bindTooltip(
+            `<div>`
+            + `Kotabagi Covid Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_eeee36de04724e7897c7e61945fb7c5f = L.marker(
+            [18.510977067594897, 73.8426168679372],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_0d69b934d92540208b961129d2c907ee = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eeee36de04724e7897c7e61945fb7c5f.setIcon(icon_0d69b934d92540208b961129d2c907ee);
+            
+    
+        marker_eeee36de04724e7897c7e61945fb7c5f.bindTooltip(
+            `<div>`
+            + `Poona Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_a931d59f31414e3ca3f4eb9da328314a = L.marker(
+            [18.5133551543485, 73.8392904973297],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_363e8f629922447a99be2dad850973d0 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a931d59f31414e3ca3f4eb9da328314a.setIcon(icon_363e8f629922447a99be2dad850973d0);
+            
+    
+        marker_a931d59f31414e3ca3f4eb9da328314a.bindTooltip(
+            `<div>`
+            + `Sahyadri Super Speciality Deccan` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c62b4723ae77468680e6c5ebe10e9678 = L.marker(
+            [18.5543593991638, 73.8978149293049],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_f59eb40183504edda069ab478cc3e577 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c62b4723ae77468680e6c5ebe10e9678.setIcon(icon_f59eb40183504edda069ab478cc3e577);
+            
+    
+        marker_c62b4723ae77468680e6c5ebe10e9678.bindTooltip(
+            `<div>`
+            + `Sahyadri Super Speciality Nagar Road` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7a9792d82d764f9dbd983a5a2d196370 = L.marker(
+            [18.503156552346603, 73.9327544986206],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_2158e394e25d4bebbd5e48c81b183dfe = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7a9792d82d764f9dbd983a5a2d196370.setIcon(icon_2158e394e25d4bebbd5e48c81b183dfe);
+            
+    
+        marker_7a9792d82d764f9dbd983a5a2d196370.bindTooltip(
+            `<div>`
+            + `Sahyadri Hospital Hadapsar` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_041024a652764a9b9f64a99081fefa10 = L.marker(
+            [18.503690045533, 73.92927918753209],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_c11e645911c34f568d0fd9bd91066870 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_041024a652764a9b9f64a99081fefa10.setIcon(icon_c11e645911c34f568d0fd9bd91066870);
+            
+    
+        marker_041024a652764a9b9f64a99081fefa10.bindTooltip(
+            `<div>`
+            + `WMFS Villoo Poonawala Memorial Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d7805901de38481a86bf615634316729 = L.marker(
+            [18.534038993801, 73.8281571593085],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_53906fadba094e9499b867a761f6a975 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d7805901de38481a86bf615634316729.setIcon(icon_53906fadba094e9499b867a761f6a975);
+            
+    
+        marker_d7805901de38481a86bf615634316729.bindTooltip(
+            `<div>`
+            + `Lokmanya Hospital Gokhale Nagar` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_bba8e9c14f6a4a58aa3f70f2a523463f = L.marker(
+            [18.5320257025232, 73.8475086010262],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_7f8109e3796f4dbb9a2fd12e3ccfd471 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_bba8e9c14f6a4a58aa3f70f2a523463f.setIcon(icon_7f8109e3796f4dbb9a2fd12e3ccfd471);
+            
+    
+        marker_bba8e9c14f6a4a58aa3f70f2a523463f.bindTooltip(
+            `<div>`
+            + `Oyester and Pearl Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_495f73082d624702b024966aea59ff60 = L.marker(
+            [18.5651731453997, 73.8029632391026],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_4a0d169d667249438b5d8317aac0a7b6 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_495f73082d624702b024966aea59ff60.setIcon(icon_4a0d169d667249438b5d8317aac0a7b6);
+            
+    
+        marker_495f73082d624702b024966aea59ff60.bindTooltip(
+            `<div>`
+            + `Medipoint Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d28e922433574a01aa86279a16319bf7 = L.marker(
+            [18.5651731453997, 73.8029632391026],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_9f0829e6ddea42cfae255187b40d2b76 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d28e922433574a01aa86279a16319bf7.setIcon(icon_9f0829e6ddea42cfae255187b40d2b76);
+            
+    
+        marker_d28e922433574a01aa86279a16319bf7.bindTooltip(
+            `<div>`
+            + `Deendayal Memorial Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_6ba662f8b88f471b8de6be24984ec863 = L.marker(
+            [18.4591104622301, 73.8573325329997],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_6b567749b5e54f63bfae4040df1d861b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6ba662f8b88f471b8de6be24984ec863.setIcon(icon_6b567749b5e54f63bfae4040df1d861b);
+            
+    
+        marker_6ba662f8b88f471b8de6be24984ec863.bindTooltip(
+            `<div>`
+            + `Bharti Ayurvedic Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d24b5f774fb74f5c9e09c0649223f88c = L.marker(
+            [18.562996706011, 73.9323342489],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_f2421b45928d404b9d11b595ab18a111 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d24b5f774fb74f5c9e09c0649223f88c.setIcon(icon_f2421b45928d404b9d11b595ab18a111);
+            
+    
+        marker_d24b5f774fb74f5c9e09c0649223f88c.bindTooltip(
+            `<div>`
+            + `Kohakade Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_070407ca35684d3fade0e0ca8dbd71a7 = L.marker(
+            [18.518064280884897, 73.8651621716335],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_6a242557a29b4bba82d160c893e7d0d7 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_070407ca35684d3fade0e0ca8dbd71a7.setIcon(icon_6a242557a29b4bba82d160c893e7d0d7);
+            
+    
+        marker_070407ca35684d3fade0e0ca8dbd71a7.bindTooltip(
+            `<div>`
+            + `Seth Tarachand Ramnath Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_598a4a61d3354e68824ac2fdb7919f0e = L.marker(
+            [18.4778922562239, 73.8238145273856],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_20277d9bf8014f8994714e65bf5ad69f = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_598a4a61d3354e68824ac2fdb7919f0e.setIcon(icon_20277d9bf8014f8994714e65bf5ad69f);
+            
+    
+        marker_598a4a61d3354e68824ac2fdb7919f0e.bindTooltip(
+            `<div>`
+            + `Jagtap Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_be6798ff330d48839d18c8dee3f8d6ff = L.marker(
+            [18.541313014407898, 73.93567351267191],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_a9a123ca54314e0b805e87aa63b4053b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_be6798ff330d48839d18c8dee3f8d6ff.setIcon(icon_a9a123ca54314e0b805e87aa63b4053b);
+            
+    
+        marker_be6798ff330d48839d18c8dee3f8d6ff.bindTooltip(
+            `<div>`
+            + `Columbia Asia Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_215dea8ebb3b47a7a26f8dd5ee1472e6 = L.marker(
+            [18.5464561904865, 73.92143002616571],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_390fc68977ce4777baf1338c4bef455b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_215dea8ebb3b47a7a26f8dd5ee1472e6.setIcon(icon_390fc68977ce4777baf1338c4bef455b);
+            
+    
+        marker_215dea8ebb3b47a7a26f8dd5ee1472e6.bindTooltip(
+            `<div>`
+            + `City Care Hospital Vadgaonsheri ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_b53caad18c9e4cfea71b54742d1bcced = L.marker(
+            [18.4783552257317, 73.8621729856836],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_5dac37a072f34a1fa185bf25de3a631b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b53caad18c9e4cfea71b54742d1bcced.setIcon(icon_5dac37a072f34a1fa185bf25de3a631b);
+            
+    
+        marker_b53caad18c9e4cfea71b54742d1bcced.bindTooltip(
+            `<div>`
+            + `Sahyadri Hospital Bibvewadi` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_684aaac5425b49cf8044d89768e14e39 = L.marker(
+            [18.49206846137, 73.8710194415065],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_2092ca95e8c64a92b304dec25e7cf00d = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_684aaac5425b49cf8044d89768e14e39.setIcon(icon_2092ca95e8c64a92b304dec25e7cf00d);
+            
+    
+        marker_684aaac5425b49cf8044d89768e14e39.bindTooltip(
+            `<div>`
+            + `Pune Adventist Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1edadd884b8d4f6da5f27a72b7995b35 = L.marker(
+            [18.4849743676384, 73.9054134949242],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_e13ba5b80ea0409ab9f7eebe848a5e9f = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1edadd884b8d4f6da5f27a72b7995b35.setIcon(icon_e13ba5b80ea0409ab9f7eebe848a5e9f);
+            
+    
+        marker_1edadd884b8d4f6da5f27a72b7995b35.bindTooltip(
+            `<div>`
+            + `Ruby Hall Clinic Wanowarie ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_677ae486b2d1448f9a84a0dd050a5856 = L.marker(
+            [18.517605367802, 73.8432560391019],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_0d1120fbb44f4bf3b0f617f66078a676 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_677ae486b2d1448f9a84a0dd050a5856.setIcon(icon_0d1120fbb44f4bf3b0f617f66078a676);
+            
+    
+        marker_677ae486b2d1448f9a84a0dd050a5856.bindTooltip(
+            `<div>`
+            + `Prayag Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_3ba9eb62f91448d1b347a8b9ece7d14e = L.marker(
+            [18.503823388778, 73.8524659874461],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_005983b6537947469ecf823e1121ee8c = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3ba9eb62f91448d1b347a8b9ece7d14e.setIcon(icon_005983b6537947469ecf823e1121ee8c);
+            
+    
+        marker_3ba9eb62f91448d1b347a8b9ece7d14e.bindTooltip(
+            `<div>`
+            + `Apollo Speciality Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_31463b511207444c88d0651d42f6ec78 = L.marker(
+            [18.463805895279, 73.8587713010252],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_3159927800f84c69b8957fed9acc18f5 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_31463b511207444c88d0651d42f6ec78.setIcon(icon_3159927800f84c69b8957fed9acc18f5);
+            
+    
+        marker_31463b511207444c88d0651d42f6ec78.bindTooltip(
+            `<div>`
+            + `Siddhi Hospital and laparoscopic ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_14dd4e643c394750ac5f22cd4e7d2e73 = L.marker(
+            [18.5023799102246, 73.81418048383591],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_4493630f12b24c00bc1cf8011e6d60b6 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_14dd4e643c394750ac5f22cd4e7d2e73.setIcon(icon_4493630f12b24c00bc1cf8011e6d60b6);
+            
+    
+        marker_14dd4e643c394750ac5f22cd4e7d2e73.bindTooltip(
+            `<div>`
+            + `Subudh Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_6fad58551e664fbab6fd9199477f3cbe = L.marker(
+            [18.4492283360013, 73.8578651549997],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_e9bcafe0547d422fb3361854faf6cb07 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6fad58551e664fbab6fd9199477f3cbe.setIcon(icon_e9bcafe0547d422fb3361854faf6cb07);
+            
+    
+        marker_6fad58551e664fbab6fd9199477f3cbe.bindTooltip(
+            `<div>`
+            + `Jeevandhara Hospital Katraj` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1601e72a66964281814bbd9a9f13daaa = L.marker(
+            [18.4970706570511, 73.9617122568485],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_21a24ccea07d47438f9583df10552b41 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1601e72a66964281814bbd9a9f13daaa.setIcon(icon_21a24ccea07d47438f9583df10552b41);
+            
+    
+        marker_1601e72a66964281814bbd9a9f13daaa.bindTooltip(
+            `<div>`
+            + `Mahesh Smruti Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ca8f0ea210a34436b6e3e697f009caba = L.marker(
+            [18.4848581183938, 73.8588866973293],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_c0f5172791b64bbc880abda7c91ccdc7 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ca8f0ea210a34436b6e3e697f009caba.setIcon(icon_c0f5172791b64bbc880abda7c91ccdc7);
+            
+    
+        marker_ca8f0ea210a34436b6e3e697f009caba.bindTooltip(
+            `<div>`
+            + `Rao Nursing Home ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_60df6996400048a0a00d43ae86cb078a = L.marker(
+            [18.5022143987967, 73.93483399732959],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_11f6a91ca7e04aea8832e3cd1bcf844c = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_60df6996400048a0a00d43ae86cb078a.setIcon(icon_11f6a91ca7e04aea8832e3cd1bcf844c);
+            
+    
+        marker_60df6996400048a0a00d43ae86cb078a.bindTooltip(
+            `<div>`
+            + `Ushakiran Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_4abb075250864d1485c86bf4cebe329a = L.marker(
+            [18.5006787105287, 73.936578128013],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_05dd82d7d6404839b495c540ebd17dac = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4abb075250864d1485c86bf4cebe329a.setIcon(icon_05dd82d7d6404839b495c540ebd17dac);
+            
+    
+        marker_4abb075250864d1485c86bf4cebe329a.bindTooltip(
+            `<div>`
+            + `Remedy Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_e13ac3b235ec46aea6187c89ff591bb5 = L.marker(
+            [18.502792620909396, 73.86885799917759],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_7c30f058636f4081b1e452264feb0f0a = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e13ac3b235ec46aea6187c89ff591bb5.setIcon(icon_7c30f058636f4081b1e452264feb0f0a);
+            
+    
+        marker_e13ac3b235ec46aea6187c89ff591bb5.bindTooltip(
+            `<div>`
+            + `Alliance Munot Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7e73ec557a12482bbe88c970505cda57 = L.marker(
+            [18.5683502943118, 73.8312421415077],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_36269c19627d417994ff642163308fcf = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7e73ec557a12482bbe88c970505cda57.setIcon(icon_36269c19627d417994ff642163308fcf);
+            
+    
+        marker_7e73ec557a12482bbe88c970505cda57.bindTooltip(
+            `<div>`
+            + `Vision Next Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_20510e693e3244d3ba59f215e5e56774 = L.marker(
+            [18.4811154776592, 73.95408911108849],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_b102b5d6869f4f1fab3f672932f6946d = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_20510e693e3244d3ba59f215e5e56774.setIcon(icon_b102b5d6869f4f1fab3f672932f6946d);
+            
+    
+        marker_20510e693e3244d3ba59f215e5e56774.bindTooltip(
+            `<div>`
+            + `Horizontal Health Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_49b5b8ad291e411eabdf6bc20e8ef5d2 = L.marker(
+            [18.5600214165493, 73.8076905354063],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_0877cd9716ec4f6e893798599f261bbf = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_49b5b8ad291e411eabdf6bc20e8ef5d2.setIcon(icon_0877cd9716ec4f6e893798599f261bbf);
+            
+    
+        marker_49b5b8ad291e411eabdf6bc20e8ef5d2.bindTooltip(
+            `<div>`
+            + `Parmar Multispeciality Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1a671a425ba4490581eb995f3eea0159 = L.marker(
+            [18.557750297141197, 73.77164397034299],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_45eba63bcc8e4e2884cdc12189324447 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1a671a425ba4490581eb995f3eea0159.setIcon(icon_45eba63bcc8e4e2884cdc12189324447);
+            
+    
+        marker_1a671a425ba4490581eb995f3eea0159.bindTooltip(
+            `<div>`
+            + `Elite Health Care Datar Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_3c7c979d39d94cc29d8a94ebf310f907 = L.marker(
+            [18.4710164149308, 73.8558656868707],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_9f9683e72fc145cea5f0a0729babf7b8 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3c7c979d39d94cc29d8a94ebf310f907.setIcon(icon_9f9683e72fc145cea5f0a0729babf7b8);
+            
+    
+        marker_3c7c979d39d94cc29d8a94ebf310f907.bindTooltip(
+            `<div>`
+            + `Suyog Nursing Home Pvt Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_b0e9d65b4e284b11ae102399aa328a32 = L.marker(
+            [18.504642650109698, 73.8518083068353],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_7358d6a758cb46128b9b57a219818ce0 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b0e9d65b4e284b11ae102399aa328a32.setIcon(icon_7358d6a758cb46128b9b57a219818ce0);
+            
+    
+        marker_b0e9d65b4e284b11ae102399aa328a32.bindTooltip(
+            `<div>`
+            + `LOC Healthcare LLP Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5994603ba4de4456a7e4dd125df823b9 = L.marker(
+            [18.503299410690502, 73.844752388887],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_b9bed08ed70e406d960d1b4dcad25139);
+        
+    
+
+                var icon_2d2e56578cd645afab6ea113753049f9 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5994603ba4de4456a7e4dd125df823b9.setIcon(icon_2d2e56578cd645afab6ea113753049f9);
+            
+    
+        marker_5994603ba4de4456a7e4dd125df823b9.bindTooltip(
+            `<div>`
+            + `MHPL Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var feature_group_def2185ec3b54f57a0d58622e01c2cad = L.featureGroup(
+                ).addTo(map_8887598da9ba453c8993e00c5fa6f9f2);
+        
+    
+        var marker_cf6c84c0e58f4093a912ed850bd7c418 = L.marker(
+            [18.5058684687405, 73.8694463888232],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_0fd358d19cd9416381fdba90c58b2eb9 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cf6c84c0e58f4093a912ed850bd7c418.setIcon(icon_0fd358d19cd9416381fdba90c58b2eb9);
+            
+    
+        marker_cf6c84c0e58f4093a912ed850bd7c418.bindTooltip(
+            `<div>`
+            + `Ramchandra Sonavne Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7894b8995f97447397e0d26af1a716d2 = L.marker(
+            [18.563124229882604, 73.8106519139633],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_c5d492f469374caba15f21a744d49c86 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7894b8995f97447397e0d26af1a716d2.setIcon(icon_c5d492f469374caba15f21a744d49c86);
+            
+    
+        marker_7894b8995f97447397e0d26af1a716d2.bindTooltip(
+            `<div>`
+            + `Aundh Kuti Rugnalaya` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_cfc364672f9c4638997ca83c8632e02c = L.marker(
+            [18.562768783716603, 73.81115735259621],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_7499fba28ed7445780cab7dc723ba985 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cfc364672f9c4638997ca83c8632e02c.setIcon(icon_7499fba28ed7445780cab7dc723ba985);
+            
+    
+        marker_cfc364672f9c4638997ca83c8632e02c.bindTooltip(
+            `<div>`
+            + `Aundh Institute of Medical Science` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_a6d25de15a6e4a4dbb5c11921d8a3057 = L.marker(
+            [18.560475116175002, 73.8052734991785],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_00756df0b0ab4163a82ed29e0a0860af = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a6d25de15a6e4a4dbb5c11921d8a3057.setIcon(icon_00756df0b0ab4163a82ed29e0a0860af);
+            
+    
+        marker_a6d25de15a6e4a4dbb5c11921d8a3057.bindTooltip(
+            `<div>`
+            + `Saishree Hospital Aundh` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7b29033992f1429aa02f45ed3eefc876 = L.marker(
+            [18.484898819621502, 73.85928366424059],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_0c2282fd95f14a49b08566c6eb22f84b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7b29033992f1429aa02f45ed3eefc876.setIcon(icon_0c2282fd95f14a49b08566c6eb22f84b);
+            
+    
+        marker_7b29033992f1429aa02f45ed3eefc876.bindTooltip(
+            `<div>`
+            + `Rao Hospital Bibwewadi` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1b2acc444dcc407fa3de230d4d17c7e7 = L.marker(
+            [18.511644645109502, 73.8371955139038],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_c048a9a5dc4042ab8fabeaa3b44d9638 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1b2acc444dcc407fa3de230d4d17c7e7.setIcon(icon_c048a9a5dc4042ab8fabeaa3b44d9638);
+            
+    
+        marker_1b2acc444dcc407fa3de230d4d17c7e7.bindTooltip(
+            `<div>`
+            + `Galaxy Care Multispeciality Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_122e389dd0f2419f9f3f20d8ae3a113b = L.marker(
+            [18.5539680978385, 73.94008009251999],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_b8c08b805abe448da948f2006daa423d = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_122e389dd0f2419f9f3f20d8ae3a113b.setIcon(icon_b8c08b805abe448da948f2006daa423d);
+            
+    
+        marker_122e389dd0f2419f9f3f20d8ae3a113b.bindTooltip(
+            `<div>`
+            + `Rising Medicare Hospital Kharadi` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_4d8249932f6c46f186b9914812e812e4 = L.marker(
+            [18.532597091967002, 73.87729253965921],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_f02b6daa293841859a7216e328a41707 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4d8249932f6c46f186b9914812e812e4.setIcon(icon_f02b6daa293841859a7216e328a41707);
+            
+    
+        marker_4d8249932f6c46f186b9914812e812e4.bindTooltip(
+            `<div>`
+            + `Ruby Hall Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_0a35466e0c5345a1967b12b8b38846b9 = L.marker(
+            [18.4961134803388, 73.81299075813949],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_72ec2e879c194ea0a7e77e84621f221b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0a35466e0c5345a1967b12b8b38846b9.setIcon(icon_72ec2e879c194ea0a7e77e84621f221b);
+            
+    
+        marker_0a35466e0c5345a1967b12b8b38846b9.bindTooltip(
+            `<div>`
+            + `Deoyani Multispeciality Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_58744a85d93949b28514784f74d0234e = L.marker(
+            [18.4949480575636, 73.8140272949244],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_27c426a3fa824b63adf9113fc705c1db = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_58744a85d93949b28514784f74d0234e.setIcon(icon_27c426a3fa824b63adf9113fc705c1db);
+            
+    
+        marker_58744a85d93949b28514784f74d0234e.bindTooltip(
+            `<div>`
+            + `Shashwat Hospital Aundh` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_96341c30ea794996bae92a7cee54a6f2 = L.marker(
+            [18.5051066731813, 73.92753110841821],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_34350426c98b4868b89698f232314ac3 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_96341c30ea794996bae92a7cee54a6f2.setIcon(icon_34350426c98b4868b89698f232314ac3);
+            
+    
+        marker_96341c30ea794996bae92a7cee54a6f2.bindTooltip(
+            `<div>`
+            + `Noble Hosital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_6ab5d5421bc94d20ac30eba287c8164e = L.marker(
+            [18.459955939296602, 73.8571277126707],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_a20bc70abd7d45f7a94f98b6b8c1fc3c = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6ab5d5421bc94d20ac30eba287c8164e.setIcon(icon_a20bc70abd7d45f7a94f98b6b8c1fc3c);
+            
+    
+        marker_6ab5d5421bc94d20ac30eba287c8164e.bindTooltip(
+            `<div>`
+            + `Bharti Hospital Dhankavdi` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1b91aad10574491d98f7c3c974de4c08 = L.marker(
+            [18.5030217555072, 73.853062965532],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_147b4ea7c6e74e1088feab9e540b2c8f = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1b91aad10574491d98f7c3c974de4c08.setIcon(icon_147b4ea7c6e74e1088feab9e540b2c8f);
+            
+    
+        marker_1b91aad10574491d98f7c3c974de4c08.bindTooltip(
+            `<div>`
+            + `Apollo Spectra Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_99bec9466e47470e932fd01216e87f3c = L.marker(
+            [18.530664702227, 73.8482647023173],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_c2e2c51d90b5408888c0a4f190555e33 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_99bec9466e47470e932fd01216e87f3c.setIcon(icon_c2e2c51d90b5408888c0a4f190555e33);
+            
+    
+        marker_99bec9466e47470e932fd01216e87f3c.bindTooltip(
+            `<div>`
+            + `SMCRS Hardikar Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_eb7a8ab6a8bb4e3a9605961dc8f1ab92 = L.marker(
+            [18.5103995681446, 73.83772335629159],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_8ae7c6abd80b4d94b7454ff407a56534 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eb7a8ab6a8bb4e3a9605961dc8f1ab92.setIcon(icon_8ae7c6abd80b4d94b7454ff407a56534);
+            
+    
+        marker_eb7a8ab6a8bb4e3a9605961dc8f1ab92.bindTooltip(
+            `<div>`
+            + `Sanjeevan Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_cda66a8f1afe41d6bb5590f74b24cbaf = L.marker(
+            [18.5014145997001, 73.8420922158105],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_89175052dfc64817a5f8196c81b892a9 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_cda66a8f1afe41d6bb5590f74b24cbaf.setIcon(icon_89175052dfc64817a5f8196c81b892a9);
+            
+    
+        marker_cda66a8f1afe41d6bb5590f74b24cbaf.bindTooltip(
+            `<div>`
+            + `Global Hospital Dattawadi` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_2b4a672075024a41a1ef5d911a0c170e = L.marker(
+            [18.494937882854302, 73.813995108418],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_e3272288bbca4497b156fe89b161014f = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b4a672075024a41a1ef5d911a0c170e.setIcon(icon_e3272288bbca4497b156fe89b161014f);
+            
+    
+        marker_2b4a672075024a41a1ef5d911a0c170e.bindTooltip(
+            `<div>`
+            + `Shashwat Hospital Kothrud` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_ae0c158114ee4da084c776ecec46aa11 = L.marker(
+            [18.5201554052988, 73.86723398938051],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_98fee8fa09534c458162c0a488188209 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ae0c158114ee4da084c776ecec46aa11.setIcon(icon_98fee8fa09534c458162c0a488188209);
+            
+    
+        marker_ae0c158114ee4da084c776ecec46aa11.bindTooltip(
+            `<div>`
+            + `KEM Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_8f359163f227479584bb2f95e979be22 = L.marker(
+            [18.505952072377, 73.9386100795827],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_2f8988d9da2c4607a19ee0f9a3210544 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8f359163f227479584bb2f95e979be22.setIcon(icon_2f8988d9da2c4607a19ee0f9a3210544);
+            
+    
+        marker_8f359163f227479584bb2f95e979be22.bindTooltip(
+            `<div>`
+            + `Sane Guruji Arogya Kendra` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f3012d04abb54597b4c3d4e4f25de079 = L.marker(
+            [18.5649995572058, 73.7861184973305],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_824950bb293a418eac9bc1a3fefd005e = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f3012d04abb54597b4c3d4e4f25de079.setIcon(icon_824950bb293a418eac9bc1a3fefd005e);
+            
+    
+        marker_f3012d04abb54597b4c3d4e4f25de079.bindTooltip(
+            `<div>`
+            + `Jupiter Hospital Baner` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_68eb635e105f4ee099d66bb08c692de2 = L.marker(
+            [18.461726021177302, 73.77355173170871],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_daffeb415e7740faa1147f8f51b9cc19 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_68eb635e105f4ee099d66bb08c692de2.setIcon(icon_daffeb415e7740faa1147f8f51b9cc19);
+            
+    
+        marker_68eb635e105f4ee099d66bb08c692de2.bindTooltip(
+            `<div>`
+            + `Sanjeevani Hospital Uttam Nagar` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_94354b13fd85413b876e37c91ae29228 = L.marker(
+            [18.517162514911302, 73.8334377930765],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_e4335cc0a8434d71ae702c08f644778c = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_94354b13fd85413b876e37c91ae29228.setIcon(icon_e4335cc0a8434d71ae702c08f644778c);
+            
+    
+        marker_94354b13fd85413b876e37c91ae29228.bindTooltip(
+            `<div>`
+            + `Joshi Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c5d6b3e7a452467b87936e600f27abf2 = L.marker(
+            [18.5034550653548, 73.90079835998759],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_be8d515152e84f91b71335f6e7ce5508 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c5d6b3e7a452467b87936e600f27abf2.setIcon(icon_be8d515152e84f91b71335f6e7ce5508);
+            
+    
+        marker_c5d6b3e7a452467b87936e600f27abf2.bindTooltip(
+            `<div>`
+            + `Inamdar Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5e5488a840084f818acca5e7ffb571e6 = L.marker(
+            [18.4850127688413, 73.9053349930761],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_fa0d7f72b0a74f1ebf855f8e5c99a116 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5e5488a840084f818acca5e7ffb571e6.setIcon(icon_fa0d7f72b0a74f1ebf855f8e5c99a116);
+            
+    
+        marker_5e5488a840084f818acca5e7ffb571e6.bindTooltip(
+            `<div>`
+            + `Ruby Hall Wanowrie` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_251726054a984c818f30895cd6520434 = L.marker(
+            [18.5104564204975, 73.93849782376],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_def2185ec3b54f57a0d58622e01c2cad);
+        
+    
+
+                var icon_680265a6b3474d66b4d1a1a3ca8e04fe = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_251726054a984c818f30895cd6520434.setIcon(icon_680265a6b3474d66b4d1a1a3ca8e04fe);
+            
+    
+        marker_251726054a984c818f30895cd6520434.bindTooltip(
+            `<div>`
+            + `Yash Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var feature_group_fda13cd70699451e9a52ed5e5773caab = L.featureGroup(
+                ).addTo(map_8887598da9ba453c8993e00c5fa6f9f2);
+        
+    
+        var marker_99bc53444fc3457aba083663db5f29e7 = L.marker(
+            [18.5456005082775, 73.8839672560874],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_fda13cd70699451e9a52ed5e5773caab);
+        
+    
+
+                var icon_b59d5b3e654042c79bbf0062e0c2c93d = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_99bc53444fc3457aba083663db5f29e7.setIcon(icon_b59d5b3e654042c79bbf0062e0c2c93d);
+            
+    
+        marker_99bc53444fc3457aba083663db5f29e7.bindTooltip(
+            `<div>`
+            + `Rajiv Gandhi Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5c32cca819594ce4a9a9a1db0045be3f = L.marker(
+            [18.523168132524802, 73.8620603542385],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_fda13cd70699451e9a52ed5e5773caab);
+        
+    
+
+                var icon_f4838d8b6f704fee8aace2ba4bf9e56b = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5c32cca819594ce4a9a9a1db0045be3f.setIcon(icon_f4838d8b6f704fee8aace2ba4bf9e56b);
+            
+    
+        marker_5c32cca819594ce4a9a9a1db0045be3f.bindTooltip(
+            `<div>`
+            + `Kamla Nehru Hosital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_33163f375e1b40d5b368f93a1c42502a = L.marker(
+            [18.5039126936342, 73.80783844074459],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_fda13cd70699451e9a52ed5e5773caab);
+        
+    
+
+                var icon_d44e81ba1dd94863a6e4f4ea0b176bfb = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_33163f375e1b40d5b368f93a1c42502a.setIcon(icon_d44e81ba1dd94863a6e4f4ea0b176bfb);
+            
+    
+        marker_33163f375e1b40d5b368f93a1c42502a.bindTooltip(
+            `<div>`
+            + `Jayabai Sutar` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_b59e36ff2bc1487f8185518c6d985dc5 = L.marker(
+            [18.5567264081765, 73.8971737254037],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_fda13cd70699451e9a52ed5e5773caab);
+        
+    
+
+                var icon_486ddc2360974934aefa43246baf0d47 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b59e36ff2bc1487f8185518c6d985dc5.setIcon(icon_486ddc2360974934aefa43246baf0d47);
+            
+    
+        marker_b59e36ff2bc1487f8185518c6d985dc5.bindTooltip(
+            `<div>`
+            + `Gangaram Karne Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_c49237acea8e422ea8f8e1ed94399568 = L.marker(
+            [18.4675408827475, 73.9201594176114],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_fda13cd70699451e9a52ed5e5773caab);
+        
+    
+
+                var icon_ffe94122de424e178d191b6d4d36d026 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c49237acea8e422ea8f8e1ed94399568.setIcon(icon_ffe94122de424e178d191b6d4d36d026);
+            
+    
+        marker_c49237acea8e422ea8f8e1ed94399568.bindTooltip(
+            `<div>`
+            + `Bhangire Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_5e298235375146f698bbf9ee9bbac3e8 = L.marker(
+            [18.4627062499207, 73.8052806354049],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_fda13cd70699451e9a52ed5e5773caab);
+        
+    
+
+                var icon_3de66d3e45e34086919b9289d597798d = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5e298235375146f698bbf9ee9bbac3e8.setIcon(icon_3de66d3e45e34086919b9289d597798d);
+            
+    
+        marker_5e298235375146f698bbf9ee9bbac3e8.bindTooltip(
+            `<div>`
+            + `Murlidhar Laigude Hospital` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f73a41c62ca84629a46451f33ad2735f = L.marker(
+            [18.524688819300398, 73.8438294684944],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(feature_group_fda13cd70699451e9a52ed5e5773caab);
+        
+    
+
+                var icon_a97f8dd913d943fd998d06df9299ede2 = L.AwesomeMarkers.icon({
+                    icon: 'plus',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f73a41c62ca84629a46451f33ad2735f.setIcon(icon_a97f8dd913d943fd998d06df9299ede2);
+            
+    
+        marker_f73a41c62ca84629a46451f33ad2735f.bindTooltip(
+            `<div>`
+            + `M.J.M Hospital ` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+            var layer_control_69ff0489fd824da18fcf6665a021ca5e = {
+                base_layers : { "openstreetmap" : tile_layer_726cac7f1129437ea349266708e7e09d, },
+                overlays : { "Covishield - red" : feature_group_b9bed08ed70e406d960d1b4dcad25139,"Covaxin - blue" : feature_group_def2185ec3b54f57a0d58622e01c2cad,"Both - green" : feature_group_fda13cd70699451e9a52ed5e5773caab, }
+                };
+            L.control.layers(
+                layer_control_69ff0489fd824da18fcf6665a021ca5e.base_layers,
+                layer_control_69ff0489fd824da18fcf6665a021ca5e.overlays,
+                {position: 'topright',
+                 collapsed: false,
+                 autoZIndex: true
+                }).addTo(map_8887598da9ba453c8993e00c5fa6f9f2);
+            
+        
+</script>
